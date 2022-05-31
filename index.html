@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<!-- displays site properly based on user's device -->
+
+		<link
+			rel="icon"
+			type="image/png"
+			sizes="32x32"
+			href="./images/favicon-32x32.png"
+		/>
+		<link rel="preconnect" href="https://fonts.googleapis.com" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+		<link
+			href="https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500&display=swap"
+			rel="stylesheet"
+		/>
+		<link rel="stylesheet" href="./styles/style.css" />
+		<title>Frontend Mentor | Time tracking dashboard</title>
+	</head>
+	<body>
+		<div class="container">
+			<div class="main-card">
+				<div class="profile">
+					<img src="./images/image-jeremy.png" alt="jeremy avatar" />
+					<div>
+						<p>Report for</p>
+						<h1>Jeremy Robson</h1>
+					</div>
+				</div>
+				<div class="menu">
+					<p id="daily" class="menu-item">Daily</p>
+					<p id="weekly" class="menu-item active">Weekly</p>
+					<p id="monthly" class="menu-item">Monthly</p>
+				</div>
+			</div>
+			<div class="report-card">
+				<div class="row">
+					<div class="report-card__work">
+						<div class="report-card__background">
+							<img src="./images/icon-work.svg" alt="" />
+						</div>
+						<div class="report-card__content">
+							<div class="report-card__title"></div>
+							<div class="report-card__time-spent">
+								<h1 class="report-card__current-time"></h1>
+								<p class="report-card__previous-time"></p>
+							</div>
+						</div>
+					</div>
+					<div class="report-card__play">
+						<div class="report-card__background">
+							<img src="./images/icon-play.svg" alt="" />
+						</div>
+						<div class="report-card__content">
+							<div class="report-card__title"></div>
+							<div class="report-card__time-spent">
+								<h1 class="report-card__current-time"></h1>
+								<p class="report-card__previous-time"></p>
+							</div>
+						</div>
+					</div>
+					<div class="report-card__study">
+						<div class="report-card__background">
+							<img src="./images/icon-study.svg" alt="" />
+						</div>
+						<div class="report-card__content">
+							<div class="report-card__title"></div>
+							<div class="report-card__time-spent">
+								<h1 class="report-card__current-time"></h1>
+								<p class="report-card__previous-time"></p>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="row">
+					<div class="report-card__exercise">
+						<div class="report-card__background">
+							<img src="./images/icon-exercise.svg" alt="" />
+						</div>
+						<div class="report-card__content">
+							<div class="report-card__title"></div>
+							<div class="report-card__time-spent">
+								<h1 class="report-card__current-time"></h1>
+								<p class="report-card__previous-time"></p>
+							</div>
+						</div>
+					</div>
+					<div class="report-card__social">
+						<div class="report-card__background">
+							<img src="./images/icon-social.svg" alt="" />
+						</div>
+						<div class="report-card__content">
+							<div class="report-card__title"></div>
+							<div class="report-card__time-spent">
+								<h1 class="report-card__current-time"></h1>
+								<p class="report-card__previous-time"></p>
+							</div>
+						</div>
+					</div>
+					<div class="report-card__self-care">
+						<div class="report-card__background">
+							<img src="./images/icon-self-care.svg" alt="" />
+						</div>
+						<div class="report-card__content">
+							<div class="report-card__title"></div>
+							<div class="report-card__time-spent">
+								<h1 class="report-card__current-time"></h1>
+								<p class="report-card__previous-time"></p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		Report for Jeremy Robson Daily Weekly Monthly Work 5hrs
+		<!-- daily -->
+		Previous - 7hrs
+		<!-- daily -->
+		32hrs
+		<!-- weekly -->
+		Previous - 36hrs
+		<!-- weekly -->
+		103hrs
+		<!-- monthly -->
+		Previous - 128hrs
+		<!-- monthly -->
+
+		Play 1hr
+		<!-- daily -->
+		Previous - 2hrs
+		<!-- daily -->
+		10hrs
+		<!-- weekly -->
+		Previous - 8hrs
+		<!-- weekly -->
+		23hrs
+		<!-- monthly -->
+		Previous - 29hrs
+		<!-- monthly -->
+
+		Study 0hrs
+		<!-- daily -->
+		Previous - 1hr
+		<!-- daily -->
+		4hrs
+		<!-- weekly -->
+		Previous - 7hrs
+		<!-- weekly -->
+		13hrs
+		<!-- monthly -->
+		Previous - 19hrs
+		<!-- monthly -->
+
+		Exercise 1hr
+		<!-- daily -->
+		Previous - 1hr
+		<!-- daily -->
+		4hrs
+		<!-- weekly -->
+		Previous - 5hrs
+		<!-- weekly -->
+		11hrs
+		<!-- monthly -->
+		Previous - 18hrs
+		<!-- monthly -->
+
+		Social 1hr
+		<!-- daily -->
+		Previous - 3hrs
+		<!-- daily -->
+		5hrs
+		<!-- weekly -->
+		Previous - 10hrs
+		<!-- weekly -->
+		21hrs
+		<!-- monthly -->
+		Previous - 23hrs
+		<!-- monthly -->
+
+		Self Care 0hrs
+		<!-- daily -->
+		Previous - 1hr
+		<!-- daily -->
+		2hrs
+		<!-- weekly -->
+		Previous - 2hrs
+		<!-- weekly -->
+		7hrs
+		<!-- monthly -->
+		Previous - 11hrs
+		<!-- monthly -->
+
+		<div class="attribution" style="color: #fff">
+			Challenge by
+			<a
+				href="https://www.frontendmentor.io/challenges"
+				target="_blank"
+				style="color: #f00"
+				>Frontend Mentor</a
+			>. Coded by
+			<a href="https://frontendmentor.io/profile/PXVC" style="color: #f00"
+				>PXVC</a
+			>.
+		</div>
+		<script src="./app.js"></script>
+	</body>
+</html>

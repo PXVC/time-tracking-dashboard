@@ -1,0 +1,81 @@
+.container {
+	display: flex;
+}
+
+.profile {
+	background-color: $blue;
+
+	img {
+		width: 100px;
+	}
+
+	div {
+		h1 {
+			color: #fff;
+			font-weight: 300;
+		}
+	}
+}
+
+.menu {
+	background-color: $dark-blue;
+
+	.menu-item {
+		cursor: pointer;
+	}
+
+	.active {
+		color: #fff;
+	}
+}
+
+.report-card {
+	> div {
+		border-radius: 1rem;
+	}
+
+	&__background {
+		display: flex;
+		justify-content: flex-end;
+		padding-right: 2rem;
+	}
+
+	&__work {
+		background-color: $work;
+	}
+
+	&__play {
+		background-color: $play;
+	}
+
+	&__study {
+		background-color: $study;
+	}
+
+	&__exercise {
+		background-color: $exercise;
+	}
+
+	&__social {
+		background-color: $social;
+	}
+
+	&__self-care {
+		background-color: $self-care;
+	}
+
+	&__content {
+		background-color: $dark-blue;
+		width: 100%;
+		// height: 100%;
+	}
+}
+
+.row {
+	display: flex;
+
+	h1 {
+		color: #fff;
+		font-weight: 300;
+	}
+}

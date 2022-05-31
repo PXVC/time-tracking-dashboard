@@ -1,0 +1,87 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  background-color: hsl(226deg, 43%, 10%);
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-family: "Rubik", sans-serif;
+}
+
+p {
+  color: hsl(236deg, 100%, 87%);
+}
+
+.container {
+  display: flex;
+}
+
+.profile {
+  background-color: hsl(246deg, 80%, 60%);
+}
+.profile img {
+  width: 100px;
+}
+.profile div h1 {
+  color: #fff;
+  font-weight: 300;
+}
+
+.menu {
+  background-color: hsl(235deg, 46%, 20%);
+}
+.menu .menu-item {
+  cursor: pointer;
+}
+.menu .active {
+  color: #fff;
+}
+
+.report-card > div {
+  border-radius: 1rem;
+}
+.report-card__background {
+  display: flex;
+  justify-content: flex-end;
+  padding-right: 2rem;
+}
+.report-card__work {
+  background-color: hsl(15deg, 100%, 70%);
+}
+.report-card__play {
+  background-color: hsl(195deg, 74%, 62%);
+}
+.report-card__study {
+  background-color: hsl(348deg, 100%, 68%);
+}
+.report-card__exercise {
+  background-color: hsl(145deg, 58%, 55%);
+}
+.report-card__social {
+  background-color: hsl(264deg, 64%, 52%);
+}
+.report-card__self-care {
+  background-color: hsl(43deg, 84%, 65%);
+}
+.report-card__content {
+  background-color: hsl(235deg, 46%, 20%);
+  width: 100%;
+}
+
+.row {
+  display: flex;
+}
+.row h1 {
+  color: #fff;
+  font-weight: 300;
+}/*# sourceMappingURL=style.css.map */
