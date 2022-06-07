@@ -137,4 +137,83 @@ p {
   color: #fff;
   font-weight: 300;
   font-size: 6rem;
+}
+
+@media screen and (max-width: 1072px) {
+  .container {
+    flex-direction: column;
+  }
+
+  .main-card {
+    display: flex;
+  }
+
+  .profile {
+    display: flex;
+    align-items: center;
+    padding: 4rem;
+    margin: 0;
+  }
+  .profile img {
+    width: 20%;
+    margin-right: 2rem;
+  }
+  .profile div {
+    margin: 0;
+  }
+
+  .menu {
+    justify-content: space-evenly;
+  }
+
+  .report-card__card {
+    min-width: 31%;
+  }
+}
+@media screen and (max-width: 651px) {
+  .main-card {
+    flex-direction: column;
+    margin: 0 auto;
+    width: -webkit-min-content;
+    width: -moz-min-content;
+    width: min-content;
+  }
+
+  .profile {
+    padding: 3rem 2.5rem;
+  }
+  .profile img {
+    width: 80px;
+  }
+  .profile h1 {
+    width: -webkit-max-content !important;
+    width: -moz-max-content !important;
+    width: max-content !important;
+    font-size: 3rem !important;
+  }
+
+  .menu {
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 0;
+  }
+
+  .row {
+    flex-direction: column;
+    -moz-column-gap: 0;
+         column-gap: 0;
+    row-gap: 2rem;
+    margin: 0;
+    margin-top: 2rem;
+  }
+
+  .report-card__time-spent {
+    display: flex;
+    align-items: baseline;
+    justify-content: space-between;
+    margin-top: 8px;
+  }
+  .report-card__time-spent h1 {
+    font-size: 3.4rem;
+  }
 }/*# sourceMappingURL=style.css.map */

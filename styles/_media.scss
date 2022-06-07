@@ -1,0 +1,83 @@
+@media screen and (max-width: 1072px) {
+	.container {
+		flex-direction: column;
+	}
+
+	.main-card {
+		display: flex;
+	}
+
+	.profile {
+		display: flex;
+		align-items: center;
+		padding: 4rem;
+		margin: 0;
+
+		img {
+			width: 20%;
+			margin-right: 2rem;
+		}
+
+		div {
+			margin: 0;
+		}
+	}
+
+	.menu {
+		justify-content: space-evenly;
+	}
+
+	.report-card {
+		&__card {
+			min-width: 31%;
+		}
+	}
+}
+
+@media screen and (max-width: 651px) {
+	.main-card {
+		flex-direction: column;
+		margin: 0 auto;
+		width: min-content;
+	}
+
+	.profile {
+		padding: 3rem 2.5rem;
+
+		img {
+			width: 80px;
+		}
+
+		h1 {
+			width: max-content !important;
+			font-size: 3rem !important;
+		}
+	}
+
+	.menu {
+		flex-direction: row;
+		justify-content: space-between;
+		margin: 0;
+	}
+
+	.row {
+		flex-direction: column;
+		column-gap: 0;
+		row-gap: 2rem;
+		margin: 0;
+		margin-top: 2rem;
+	}
+
+	.report-card {
+		&__time-spent {
+			display: flex;
+			align-items: baseline;
+			justify-content: space-between;
+			margin-top: 8px;
+
+			h1 {
+				font-size: 3.4rem;
+			}
+		}
+	}
+}
